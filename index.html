@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal - Flamingua</title>
+    <style>
+        :root {
+            --primary: #FF5C8D;
+            /* Flamingo Pink */
+            --primary-dark: #E04B79;
+            --text-main: #2D3436;
+            --text-secondary: #636E72;
+            --bg: #F9FAFB;
+            --surface: #FFFFFF;
+            --border: #E5E7EB;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .card {
+            background: var(--surface);
+            max-width: 500px;
+            width: 100%;
+            padding: 40px;
+            border-radius: 24px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            border: 1px solid var(--border);
+        }
+
+        .logo-placeholder {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            border-radius: 20px;
+            margin: 0 auto 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            box-shadow: 0 8px 16px rgba(255, 92, 141, 0.3);
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 12px;
+            letter-spacing: -0.5px;
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 32px;
+            font-size: 16px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .law-link {
+            display: block;
+            padding: 18px;
+            background: var(--bg);
+            border: 2px solid var(--border);
+            border-radius: 16px;
+            text-decoration: none;
+            color: var(--text-main);
+            font-weight: 600;
+            transition: all 0.2s ease;
+            font-size: 17px;
+        }
+
+        .law-link:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+            transform: translateY(-2px);
+            background: white;
+            box-shadow: 0 4px 12px rgba(255, 92, 141, 0.1);
+        }
+
+        .footer {
+            margin-top: 40px;
+            font-size: 13px;
+            color: var(--text-secondary);
+            border-top: 1px solid var(--border);
+            padding-top: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="logo-placeholder">F</div>
+        <h1>Flamingua</h1>
+        <p>Legal & Privacy Center</p>
+
+        <div class="links">
+            <a href="privacy_policy.html" class="law-link">Privacy Policy</a>
+            <a href="terms_of_service.html" class="law-link">Terms of Service</a>
+        </div>
+
+        <div class="footer">
+            &copy; 2026 Flamingua. All rights reserved.
+        </div>
+    </div>
+</body>
+
+</html>
